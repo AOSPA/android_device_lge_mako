@@ -21,11 +21,11 @@
         "revision":     "jb43"
     },
     {
-        "remote":       "github",
-        "account":      "ParanoidAndroid",
-        "repository":   "lge-kernel-mako",
-        "target_path":  "kernel/lge/mako",
-        "revision":     "jb43"
+        "remote":       "aosp",
+        "account":      "device",
+        "repository":   "lge/mako-kernel",
+        "target_path":  "device/lge/mako-kernel",
+        "revision":     "refs/tags/android-4.4_r1"
     },
     {
         "remote":       "github",
