@@ -11,7 +11,7 @@
         "account":      "AOSPA",
         "repository":   "android_hardware_qcom_power",
         "target_path":  "hardware/qcom/power",
-        "revision":     "kitkat
+        "revision":     "kitkat"
     },
     {
         "remote":       "github",
