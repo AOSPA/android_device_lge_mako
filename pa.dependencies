@@ -15,10 +15,10 @@
     },
     {
         "remote":       "github",
-        "account":      "AOSPA",
+        "account":      "TheMuppets",
         "repository":   "proprietary_vendor_lge",
         "target_path":  "vendor/lge",
-        "revision":     "jb43"
+        "revision":     "cm-11.0"
     },
     {
         "remote":       "aosp",
