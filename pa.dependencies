@@ -9,7 +9,7 @@
     {
         "remote":       "github",
         "account":      "AOSPA",
-        "repository":   "hardware/qcom/power",
+        "repository":   "android_hardware_qcom_power",
         "target_path":  "hardware/qcom/power",
         "revision":     "kitkat
     },
