@@ -7,11 +7,11 @@
         "revision":     "cm-10.2"
     },
     {
-        "remote":       "aosp",
-        "account":      "platform",
+        "remote":       "github",
+        "account":      "AOSPA",
         "repository":   "hardware/qcom/power",
         "target_path":  "hardware/qcom/power",
-        "revision":     "refs/tags/android-4.4_r1"
+        "revision":     "kitkat
     },
     {
         "remote":       "github",
