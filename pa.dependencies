@@ -4,7 +4,7 @@
         "account":      "AOSPA",
         "repository":   "android_hardware_qcom_power",
         "target_path":  "hardware/qcom/power",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "kitkat"
     },
     {
         "remote":       "github",
@@ -18,7 +18,7 @@
         "account":      "device",
         "repository":   "lge/mako-kernel",
         "target_path":  "device/lge/mako-kernel",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
     {
         "remote":       "github",
@@ -32,7 +32,7 @@
         "account":      "platform",
         "repository":   "hardware/qcom/media",
         "target_path":  "hardware/qcom/media",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
 
     {
@@ -40,41 +40,41 @@
         "account":      "platform",
         "repository":   "hardware/qcom/wlan",
         "target_path":  "hardware/qcom/wlan",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
     {
         "remote":       "aosp",
         "account":      "platform",
         "repository":   "hardware/qcom/audio",
         "target_path":  "hardware/qcom/audio",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
     {
         "remote":       "aosp",
         "account":      "platform",
         "repository":   "hardware/qcom/bt",
         "target_path":  "hardware/qcom/bt",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
     {
         "remote":       "aosp",
         "account":      "platform",
         "repository":   "hardware/qcom/msm8960",
         "target_path":  "hardware/qcom/msm8960",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
     {
         "remote":       "aosp",
         "account":      "platform",
         "repository":   "hardware/qcom/keymaster",
         "target_path":  "hardware/qcom/keymaster",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     },
     {
         "remote":       "aosp",
         "account":      "platform",
         "repository":   "hardware/qcom/sensors",
         "target_path":  "hardware/qcom/sensors",
-        "revision":     "kitkat-mr1-release"
+        "revision":     "refs/tags/android-4.4.1_r1"
     }
 ]
