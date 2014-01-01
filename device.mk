@@ -107,6 +107,17 @@ PRODUCT_PACKAGES += \
     NfcNci \
     Tag \
     com.android.nfc_extras
+    
+# Hardware codecs
+PRODUCT_PROPERTY_OVERRIDES += \
+     qcom.hw.aac.encoder=true
+ 
+ PRODUCT_PACKAGES += \
+     libOmxAacEnc \
+     libOmxAmrEnc \
+     libOmxEvrcEnc \
+     libOmxQcelp13Enc
+ 
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
