@@ -12,10 +12,10 @@
         "revision":     "kitkat"
     },
     {
-        "remote":       "aosp",
-        "repository":   "device/lge/mako-kernel",
-        "target_path":  "device/lge/mako-kernel",
-        "revision":     "refs/tags/android-4.4.2_r1"
+        "remote":       "github",
+        "repository":   "AOSPA/android_kernel_lge_mako",
+        "target_path":  "kernel/lge/mako",
+        "revision":     "kitkat"
     },
     {
         "remote":       "github",
