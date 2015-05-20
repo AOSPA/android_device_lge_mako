@@ -69,6 +69,6 @@
         "remote":       "blobs",
         "repository":   "proprietary_vendor_lge_mako",
         "target_path":  "vendor/lge/mako",
-        "revision":     "lollipop"
+        "revision":     "lollipop-mr1"
     }
 ]
