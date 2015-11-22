@@ -18,7 +18,6 @@ TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
-TARGET_CPU_SMP := true
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := krait
@@ -70,7 +69,7 @@ TARGET_USES_C2D_COMPOSITON := true
 
 # Enable dex-preoptimization to speed up first boot sequence
 ifeq ($(HOST_OS),linux)
-  ifeq ($(TARGET_BUILD_VARIANT),user)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
     ifeq ($(WITH_DEXPREOPT),)
       WITH_DEXPREOPT := true
     endif
@@ -96,40 +95,12 @@ BOARD_USES_CAMERA_FAST_AUTOFOCUS := true
 BOARD_HAL_STATIC_LIBRARIES := libdumpstate.mako
 
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
+BOARD_VENDOR_QCOM_LOC_PDK_FEATURE_SET := true
 TARGET_NO_RPC := true
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/mako
 
-BOARD_SEPOLICY_DIRS += \
-       device/lge/mako/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-       bluetooth_loader.te \
-       bridge.te \
-       camera.te \
-       conn_init.te \
-       device.te \
-       domain.te \
-       file.te \
-       file_contexts \
-       hostapd.te \
-       kickstart.te \
-       mediaserver.te \
-       mpdecision.te \
-       netmgrd.te \
-       property.te \
-       property_contexts \
-       qmux.te \
-       rild.te \
-       rmt.te \
-       sensors.te \
-       surfaceflinger.te \
-       system_server.te \
-       tee.te \
-       te_macros \
-       thermald.te \
-       ueventd.te
-
+BOARD_SEPOLICY_DIRS += device/lge/mako/sepolicy
 
 BOARD_CHARGER_ENABLE_SUSPEND := true
 

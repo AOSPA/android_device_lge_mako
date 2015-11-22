@@ -243,9 +243,6 @@
          rather than the uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
 
-    <!-- Component name of the default wallpaper. This will be ImageWallpaper if not specified -->
-    <string name="default_wallpaper_component" translatable="false">com.android.phasebeam/.PhaseBeamWallpaper</string>
-
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface" translatable="false">rmnet_usb0</string>
 
@@ -269,4 +266,10 @@
     <integer name="config_multiuserMaximumUsers">4</integer>
     <!--  Whether Multiuser UI should be shown -->
     <bool name="config_enableMultiUserUI">true</bool>
+
+    <!-- The RadioAccessFamilies supported by the device.
+         Empty is viewed as "all".  Only used on devices which
+         don't support RIL_REQUEST_GET_RADIO_CAPABILITY
+         format is UMTS|LTE|... -->
+    <string name="config_radio_access_family" translatable="false">GSM | WCDMA | LTE</string>
 </resources>

@@ -1,0 +1,2 @@
+# text relocation in /system/vendor/lib/libvdmengine.so
+allow radio system_file:file execmod;
