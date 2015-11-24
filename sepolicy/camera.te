@@ -30,3 +30,6 @@ allow camera sensors_device:chr_file rw_file_perms;
 # Read camera files from persist filesystem
 allow camera persist_file:dir search;
 r_dir_file(camera, persist_camera_file)
+
+# Allow using the /system/lib/libmmjpeg.so library
+allow camera system_file:file execmod;
