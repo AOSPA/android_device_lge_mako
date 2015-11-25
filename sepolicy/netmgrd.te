@@ -15,6 +15,7 @@ allow netmgrd self:capability { setuid setgid net_admin net_raw };
 dontaudit netmgrd self:capability sys_module;
 
 allow netmgrd self:packet_socket create;
+allow netmgrd self:packet_socket bind;
 allow netmgrd self:netlink_socket create_socket_perms;
 allow netmgrd self:netlink_route_socket nlmsg_write;
 
