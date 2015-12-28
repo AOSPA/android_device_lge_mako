@@ -17,12 +17,8 @@
 # Sample: This is where we'd set a backup provider if we had one
 # $(call inherit-product, device/sample/products/backup_overlay.mk)
 
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-        LiveWallpapers \
-        LiveWallpapersPicker \
-        VisualizationWallpapers
-
+# Live Wallpapers Picker
+PRODUCT_PACKAGES += LiveWallpapersPicker
 
 # Get the long list of APNs
 PRODUCT_COPY_FILES := device/lge/mako/apns-full-conf.xml:system/etc/apns-conf.xml
