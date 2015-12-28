@@ -272,4 +272,7 @@
          don't support RIL_REQUEST_GET_RADIO_CAPABILITY
          format is UMTS|LTE|... -->
     <string name="config_radio_access_family" translatable="false">GSM | WCDMA | LTE</string>
+
+    <!-- Enable Doze -->
+    <bool name="config_enableAutoPowerModes">true</bool>
 </resources>
