@@ -1,0 +1,1 @@
+allow zygote input_device:dir read;
